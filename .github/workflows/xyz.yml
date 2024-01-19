@@ -7,7 +7,7 @@ jobs:
     build:
         runs-on: 
           - self-hosted
-          - ubutt
+          - Ansible
         steps:
           
             - uses: actions/checkout@v4
