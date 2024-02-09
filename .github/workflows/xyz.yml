@@ -5,14 +5,10 @@ on:
 
 jobs:
     build:
-<<<<<<< HEAD
+
         runs-on: sonu
-        
-=======
-        runs-on: 
-          - self-hosted
-          - arpirun
->>>>>>> 652a7177aef4e3fc2ad239c54e4e8a9e76f19e4b
+      
+
         steps:
           
             - uses: actions/checkout@v4
